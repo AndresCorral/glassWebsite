@@ -6,3 +6,21 @@
 html {
   font-size: 62.5%;
 }
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6765df);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+}
